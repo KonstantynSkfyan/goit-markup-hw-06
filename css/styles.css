@@ -46,6 +46,17 @@ ul {
   color: #434455;
 }
 
+.navigation-list:hover {
+  color: #404bbf;
+}
+
+.navigation-list:focus {
+  color: #404bbf;
+}
+
+.header-address-link:hover {
+  color: #404bbf;
+}
 .hero {
   background: #2e2f42;
 }
@@ -71,6 +82,10 @@ ul {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
 }
+.hero-button:hover {
+  cursor: pointer;
+  background: #404bbf;
+}
 
 .capabilities-list-title {
   font-weight: 500;
@@ -81,7 +96,6 @@ ul {
 }
 
 .capabilities-list-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -106,7 +120,6 @@ ul {
 }
 
 .team-item-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -132,7 +145,6 @@ ul {
 }
 
 .portfolio-item-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -143,7 +155,6 @@ ul {
   background: #2e2f42;
 }
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
