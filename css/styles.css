@@ -102,6 +102,9 @@ ul {
   color: #434455;
 }
 
+.team {
+  background: #f4f4fd;
+}
 .team-header {
   font-weight: 700;
   font-size: 36px;
