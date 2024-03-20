@@ -43,7 +43,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #434455;
 }
 .navigation-list-link:hover {
   color: #404bbf;
@@ -53,6 +53,9 @@ ul {
   color: #404bbf;
 }
 
+.navigation-list-link:active {
+  color: #404bbf;
+}
 .header-address {
   font-style: normal;
   font-size: 16px;
