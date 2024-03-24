@@ -36,7 +36,14 @@ ul {
   color: #2e2f42;
 }
 
+.navigation-list-link {
+  color: #2e2f42;
+}
 .navigation-list-link:hover {
+  color: #404bbf;
+}
+
+.navigation-list-link:focus {
   color: #404bbf;
 }
 
@@ -46,6 +53,14 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.header-address-link {
+  color: #434455;
+}
+
+.header-address-link:active {
+  color: #404bbf;
 }
 
 .navigation-list:focus,
