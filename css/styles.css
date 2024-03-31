@@ -41,13 +41,12 @@ img {
 .header-wrap {
   display: flex;
   align-items: center;
-  width: 1440px;
   height: 72px;
+  padding: 24px 0;
 }
 .header-nav {
   display: flex;
   align-items: center;
-  margin-left: 156px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -95,6 +94,7 @@ img {
   margin-left: 332px;
   display: flex;
   gap: 40px;
+  width: 344px;
 }
 .header-address {
   font-style: normal;
