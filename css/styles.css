@@ -30,12 +30,14 @@ img {
 /* =========HEADER========= */
 
 .container {
-  width: 1440px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
-
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-wrap {
   display: flex;
   align-items: center;
@@ -56,6 +58,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   /* margin-left: 156px; */
+  margin-right: 76px;
 }
 
 .accent {
@@ -71,6 +74,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   margin-left: 76px;
+  padding: 24px 0;
 }
 
 .navigation-list-item {
