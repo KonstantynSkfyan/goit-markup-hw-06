@@ -130,7 +130,7 @@ img {
   width: 1440px;
   height: 600px;
   padding-top: 188px;
-  padding-bottom: 292px;
+  padding-bottom: 188px;
   margin: 0 auto;
 }
 .hero-header {
@@ -159,6 +159,7 @@ img {
   min-width: 169px;
   height: 56px;
   margin-top: 48px;
+  border: none;
 }
 .hero-button:hover {
   cursor: pointer;
