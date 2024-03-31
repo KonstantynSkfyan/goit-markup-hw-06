@@ -269,15 +269,25 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
-.footer {
-  background: #2e2f42;
+/* ==========FOOTER========== */
+.footer-wrap {
+  display: flex;
+  align-items: flex-start;
+  background: rgb(46, 47, 66);
+  width: 1440px;
+  height: 312px;
+  gap: 16px;
+  flex-direction: column;
+  padding-left: 156px;
+  padding-top: 100px;
 }
+
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
 }
 .accent-footer {
   color: #f4f4fd;
