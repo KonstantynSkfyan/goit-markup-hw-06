@@ -8,6 +8,7 @@ a,
 ul {
   text-decoration: none;
   list-style: none;
+  padding: 0;
 }
 
 h1,
@@ -29,7 +30,7 @@ img {
 /* =========HEADER========= */
 
 .container {
-  width: 1158px;
+  width: 1440px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -242,8 +243,13 @@ img {
   margin-bottom: 72px;
   padding-top: 120px;
 }
+.portfolio-wrap {
+  width: 1128px;
+  height: 1000px;
+}
 
 .portfolio-list {
+  min-width: 1128px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
