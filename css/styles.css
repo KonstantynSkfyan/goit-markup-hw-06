@@ -302,16 +302,12 @@ img {
 }
 
 .footer-wrap {
-  display: flex;
-  align-items: flex-start;
   background: rgb(46, 47, 66);
   width: 1440px;
   height: 312px;
   gap: 16px;
   flex-direction: column;
   padding-left: 156px;
-  /* padding-top: 100px;
-  padding-bottom: 100px; */
 }
 
 .logo-footer {
@@ -323,9 +319,6 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
-}
-
-.footer-link {
   display: inline-block;
 }
 
