@@ -244,7 +244,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 
 .team-list-item {
@@ -261,6 +261,10 @@ img {
   color: #434455;
 }
 /* ==========PORTFOLIO========= */
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .portfolio-header {
   text-transform: capitalize;
