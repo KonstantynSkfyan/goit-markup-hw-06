@@ -215,6 +215,8 @@ img {
 /* ==========TEAM ==========*/
 .team {
   background: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-header {
   text-transform: capitalize;
@@ -224,14 +226,16 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
   align-items: center;
   gap: 24px;
   justify-content: center;
+}
+.team-disc {
+  padding: 32px 0;
 }
 .team-item-header {
   font-size: 20px;
@@ -246,6 +250,7 @@ img {
 .team-list-item {
   background: #ffffff;
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item-text {
