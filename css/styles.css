@@ -126,8 +126,10 @@ img {
 
 /* ===============HERO============== */
 .hero {
+  margin-left: auto;
+  margin-right: auto;
   background: #2e2f42;
-  width: 1440px;
+  max-width: 1440px;
   /* height: 600px; */
   padding-top: 188px;
   padding-bottom: 188px;
@@ -141,6 +143,7 @@ img {
   background-size: cover;
   background-color: rgba(46, 47, 66, 0.7);
 }
+
 .hero-header {
   font-weight: 700;
   font-size: 56px;
@@ -209,8 +212,8 @@ img {
   height: 112px;
   background: #f4f4fd;
 }
-.icon-capabil-item {
-}
+/* .icon-capabil-item {
+} */
 
 .section {
   padding-top: 120px;
@@ -304,7 +307,8 @@ img {
   align-items: center;
   justify-content: center;
 }
-.icon-link:hover {
+.icon-link:hover,
+.icon-link:focus {
   background-color: #31d0aa;
 }
 /* ==========PORTFOLIO========= */
@@ -352,6 +356,10 @@ img {
 .portfolio-list-item:hover .portfolio-list-cover {
   transform: translateY(0);
 }
+.portfolio-list-item:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
 .portfolio-cover-wrap {
   position: relative;
   overflow: hidden;
@@ -382,6 +390,10 @@ img {
 }
 /* ==========FOOTER========== */
 .footer {
+  width: 1440px;
+  height: 312px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
