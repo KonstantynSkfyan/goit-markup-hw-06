@@ -93,7 +93,7 @@ img {
   color: #404bbf;
 }
 
-.navigation-list-item.current::after {
+.navigation-list-item .current::after {
   content: "";
   position: absolute;
   left: 0;
