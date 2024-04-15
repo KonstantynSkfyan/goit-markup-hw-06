@@ -670,7 +670,7 @@ button:focus > svg {
 }
 
 .privacy {
-  padding-left: ;
+  padding-left: 8px;
   line-height: 1.33;
   text-decoration: underline;
   text-decoration-skip-ink: none;
