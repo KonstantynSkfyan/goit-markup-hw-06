@@ -829,9 +829,74 @@ button:focus > svg {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 768px) {
   .container {
-    max-width: 1140px;
+    max-width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
+    /* margin: 0 auto; */
+  }
+
+  .hero {
+    width: 768px;
+  }
+
+  .hero-header {
+    line-height: 1.07;
+    max-width: 496px;
+    font-size: 56px;
+  }
+  .hero-button {
+    margin-top: 36px;
+  }
+
+  /* ==========CAPABILITIES========== */
+
+  .capabilities-list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 72px 24px;
+    justify-content: center;
+  }
+
+  .capabilities-list-item {
+    width: calc((100% - 72px) / 2);
+  }
+  .capabilities-list-text {
+    padding-bottom: 0px;
+  }
+
+  /* ==========TEAM========== */
+  .team-list {
+    flex-direction: row;
+    gap: 64px 24px;
+  }
+
+  /* ==========PORTFOLIO========== */
+
+  .portfolio-list {
+    flex-direction: row;
+    gap: 72px 24px;
+  }
+
+  /* ==========FOOTER========== */
+  .footer-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: unset;
+    justify-content: unset;
+    max-width: 584px;
+    gap: 0px 24px;
+  }
+
+  .form-footer {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -926,6 +991,8 @@ button:focus > svg {
   .footer-wrap {
     flex-direction: row;
     align-items: baseline;
+    flex-wrap: nowrap;
+    gap: 0px;
   }
 
   .footer-container-new {
@@ -946,72 +1013,6 @@ button:focus > svg {
 
   .social-media {
     margin-right: 80px;
-  }
-
-  .form-footer {
-    flex-direction: row;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 16px;
-    padding-right: 16px;
-    /* margin: 0 auto; */
-  }
-
-  .hero {
-    width: 768px;
-  }
-
-  .hero-header {
-    line-height: 1.07;
-    max-width: 496px;
-    font-size: 56px;
-  }
-  .hero-button {
-    margin-top: 36px;
-  }
-
-  /* ==========CAPABILITIES========== */
-
-  .capabilities-list {
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 72px 24px;
-    justify-content: center;
-  }
-
-  .capabilities-list-item {
-    width: calc((100% - 72px) / 2);
-  }
-  .capabilities-list-text {
-    padding-bottom: 0px;
-  }
-
-  /* ==========TEAM========== */
-  .team-list {
-    flex-direction: row;
-    gap: 64px 24px;
-  }
-
-  /* ==========PORTFOLIO========== */
-
-  .portfolio-list {
-    flex-direction: row;
-    gap: 72px 24px;
-  }
-
-  /* ==========FOOTER========== */
-  .footer-wrap {
-    flex-direction: row;
-    flex-wrap: wrap;
-    text-align: start;
-    align-items: unset;
-    justify-content: unset;
-    max-width: 584px;
-    gap: 0px 24px;
   }
 
   .form-footer {
