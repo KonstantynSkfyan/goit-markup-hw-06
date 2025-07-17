@@ -87,20 +87,21 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.current::after {
+/*.current::after {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -1px;
+  bottom: 4px;
   display: block;
   width: 100%;
   border-radius: 2px;
   height: 4px;
   background-color: #404bbf;
-}
+}*/
 
 .navigation-list-link {
   color: #2e2f42;
+  display: block;
   padding: 24px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -172,9 +173,7 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.current {
-  color: #404bbf;
-}
+
 .mob-header-address {
   font-style: normal;
   margin-bottom: 48px;
@@ -193,6 +192,10 @@ img {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-header-address-link.curent {
+  color: #4d5ae5;
 }
 /* .mob-soc-icon {
 } */
@@ -955,6 +958,9 @@ button:focus > svg {
     padding-right: 16px;
     /* margin: 0 auto; */
   }
+  .header-wrap {
+    height: 72px;
+  }
   .adress-list {
     display: block;
   }
@@ -975,6 +981,20 @@ button:focus > svg {
     display: flex;
     gap: 40px;
   }
+  .current::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+    height: 4px;
+    background-color: #404bbf;
+  }
+  .adress-list {
+  }
+
   .hero {
     max-width: 768px;
     padding: 112px 0;
@@ -1012,7 +1032,7 @@ button:focus > svg {
   }
 
   .capabilities-list-item {
-    width: calc((100% - 72px) / 2);
+    width: calc((100% - 24px) / 2);
   }
   .capabilities-list-text {
     padding-bottom: 0px;
@@ -1057,6 +1077,9 @@ button:focus > svg {
   .social-paragraf {
     text-align: left;
   }
+  .modal {
+    width: 408px;
+  }
 }
 @media screen and (min-width: 1158px) {
   .container {
@@ -1067,6 +1090,9 @@ button:focus > svg {
   .adress-list {
     display: flex;
     gap: 40px;
+  }
+  .header-address-link {
+    font-size: 16px;
   }
   .hero {
     max-width: 1158px;
@@ -1188,7 +1214,9 @@ button:focus > svg {
   .social-paragraf {
     text-align: ;
   }
-
+  .footer-input {
+    width: 264px;
+  }
   .media {
     text-align: left;
   }
@@ -1199,5 +1227,8 @@ button:focus > svg {
 
   .form-footer {
     flex-direction: row;
+  }
+  .modal {
+    width: 408px;
   }
 }
